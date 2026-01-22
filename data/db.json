@@ -1,0 +1,7 @@
+{
+  "login": { "username": "qaUser", "password": "qaPass123" },
+  "products": [
+    { "id": 101, "name": "Laptop" },
+    { "id": 102, "name": "Mobile" }
+  ]
+}
