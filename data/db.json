@@ -1,7 +1,52 @@
 {
-  "login": { "username": "qaUser", "password": "qaPass123" },
+  "users": [
+    {
+      "id": 1,
+      "username": "qaUser",
+      "password": "qaPass123",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "Admin@123",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 3,
+      "username": "testUser",
+      "password": "Test@123",
+      "role": "user",
+      "active": false
+    }
+  ],
   "products": [
-    { "id": 101, "name": "Laptop" },
-    { "id": 102, "name": "Mobile" }
-  ]
+    {
+      "id": 101,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 999.99,
+      "stock": 50
+    },
+    {
+      "id": 102,
+      "name": "Mobile",
+      "category": "Electronics",
+      "price": 599.99,
+      "stock": 100
+    },
+    {
+      "id": 103,
+      "name": "Headphones",
+      "category": "Accessories",
+      "price": 49.99,
+      "stock": 200
+    }
+  ],
+  "login": {
+    "username": "qaUser",
+    "password": "qaPass123"
+  }
 }
