@@ -4,5 +4,11 @@
     "api/testdata.js": {
       "includeFiles": "data/**"
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/api/testdata",
+      "dest": "/api/testdata.js"
+    }
+  ]
 }
