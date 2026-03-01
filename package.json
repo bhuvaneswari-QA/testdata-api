@@ -1,9 +1,6 @@
 {
   "name": "testdata-api",
   "version": "1.0.0",
-  "engines": {
-    "node": "22.x"
-  },
   "scripts": {
     "dev": "vercel dev",
     "start": "node api/testdata.js"
