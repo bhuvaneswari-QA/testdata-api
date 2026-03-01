@@ -1,7 +1,13 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/testdata.js", "use": "@vercel/node" }
+    {
+      "src": "api/testdata.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": [ "data/db.json" ]
+      }
+    }
   ],
   "routes": [
     { "src": "/api/testdata", "dest": "api/testdata.js" }
